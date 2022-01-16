@@ -36,5 +36,5 @@ jobs:
           echo test, and deploy your project.
 
       # Run Apex Code Scan via PMD
-      - name: Check APEX
-        uses: legetz/setup-pmd@v6.38
+      - name: PMD Automatic reviewer
+        uses: krukmat/setup-pmd@v0.4
