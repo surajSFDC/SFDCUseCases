@@ -38,4 +38,3 @@ jobs:
       # Run Apex Code Scan via PMD
       - name: Check APEX
         uses: legetz/setup-pmd@v6.38
-      - run: pmd -d ./force-app/main/default/classes -R category/apex/design.xml -f text
