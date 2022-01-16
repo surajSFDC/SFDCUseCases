@@ -34,7 +34,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-
-      # Run Apex Code Scan via PMD
-      - name: PMD Automatic reviewer
-        uses: krukmat/setup-pmd@v0.4
