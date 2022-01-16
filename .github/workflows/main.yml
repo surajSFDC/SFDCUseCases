@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [ main, develop]
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -34,3 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      # Run Apex Code Scan via PMD
+      - name: Check APEX
+        uses: legetz/setup-pmd@v6.38
+      - run: pmd -d ./force-app/main/default/classes -R category/apex/design.xml -f text
