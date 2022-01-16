@@ -8,3 +8,12 @@
 string tempvar = 'Enter_your_name_here';
 System.debug('Hello World!');
 System.debug('My name is ' + tempvar);
+
+AccountStructure accStru = new AccountStructure();
+/* List<accStru.ObjectStructureMap> listObjectStructureMap = new List<accStru.ObjectStructureMap>();
+listObjectStructureMap =  */
+//System.debug(accStru.formatObjectStructure('0015j00000RRiJkAAL'));
+System.debug(JSON.serialize(accStru.formatObjectStructure('0015j00000RRiJgAAL')));
+
+
+AccHierarchyIDs.accHierarchyIDs('0015j00000RRiJfAAL');
