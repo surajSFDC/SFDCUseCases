@@ -1,10 +1,23 @@
+/**
+ * @description       : 
+ * @author            : Suraj Gupta
+ * @group             : 
+ * @last modified on  : 02-22-2022
+ * @last modified by  : Suraj Gupta
+ * Modifications Log
+ * Ver   Date         Author        Modification
+ * 1.0   02-22-2022   Suraj Gupta   Initial Version
+**/
 @isTest
 private class TwilioWorkflowSMSHelper_test {
 	
+	/**
+	* @description 
+	* @author Suraj Gupta | 02-22-2022 
+	**/
 	@isTest static void testHelperGood() {
 
 		Test.setMock(HttpCalloutMock.class, makeMock('TwilioPostGoodSMS', 201));
-		dataSetup();		
 
 		Test.startTest();
 
@@ -19,13 +32,15 @@ private class TwilioWorkflowSMSHelper_test {
 
 		tm = [select id, Status__c, Error_Comments__c from Twilio_Message__c where id=:tm.id];
 		system.assertEquals('Success', tm.Status__c);
-
 	}
 
+	/**
+	* @description 
+	* @author Suraj Gupta | 02-22-2022 
+	**/
 	@isTest static void testHelperBad() {
 
 		Test.setMock(HttpCalloutMock.class, makeMock('TwilioPostBadSMS', 400));
-		dataSetup();		
 
 		Test.startTest();
 
@@ -39,39 +54,14 @@ private class TwilioWorkflowSMSHelper_test {
 		Test.stopTest();
 
 		tm = [select id, Status__c, Error_Comments__c from Twilio_Message__c where id=:tm.id];
+
 		system.assertEquals('Error', tm.Status__c);
 		system.assertEquals('The \'From\' number 1281607256 is not a valid phone number or shortcode.', tm.Error_Comments__c);
-
-	}
-
-
-
-	@isTest static void dataSetup(){
-		//create our custom setting
-		TwilioConfig__c tc = new TwilioConfig__c();
-		tc.AccountSid__c = 'ACb16f51a6b555b12f9cbb2934c64617f3';
-		tc.AuthToken__c = '3347e880d3145ea1b5826749cf2d3813';
-		tc.Twilio_Number__c = '2816072152';
-		tc.API_Version__c = '2010-04-01';
-		tc.Twilio_Version__c = '3.2.0';
-		tc.API_Endpoint__c = 'https://api.twilio.com';
-
-		insert tc;
-	}
-
-	public static StaticResourceCalloutMock makeMock(string resource, integer statusCode){
-		StaticResourceCalloutMock mock = new StaticResourceCalloutMock();
-		mock.setStaticResource(resource);
-		mock.setStatusCode(statusCode);
-		mock.setHeader('Content-Type', 'application/json');
-		return mock;
 	}
 
 	@isTest static void testBulkTrigger() {
 
 		Test.setMock(HttpCalloutMock.class, makeMock('TwilioPostGoodSMS', 201));
-		dataSetup();		
-
 		Test.startTest();
 
 		list<Twilio_Message__c> tms = new list<Twilio_Message__c>();
@@ -92,9 +82,27 @@ private class TwilioWorkflowSMSHelper_test {
 		for (Twilio_Message__c tm:tms2Assert){
 			system.assertEquals('Success', tm.Status__c, 'on Assert ' + assertCount +', tm is: ' + tm );
 		}
-
 	}
 
-	
+	@TestSetup static void dataSetup(){
+		//create our custom setting
+		TwilioConfig__c tc = new TwilioConfig__c();
+		tc.AccountSid__c = 'ACb16f51a6b555b12f9cbb2934c64617f3';
+		tc.AuthToken__c = '3347e880d3145ea1b5826749cf2d3813';
+		tc.Twilio_Number__c = '2816072152';
+		tc.API_Version__c = '2010-04-01';
+		tc.Twilio_Version__c = '3.2.0';
+		tc.API_Endpoint__c = 'https://api.twilio.com';
+
+		insert tc;
+	}
+
+	public static StaticResourceCalloutMock makeMock(string resource, integer statusCode){
+		StaticResourceCalloutMock mock = new StaticResourceCalloutMock();
+		mock.setStaticResource(resource);
+		mock.setStatusCode(statusCode);
+		mock.setHeader('Content-Type', 'application/json');
+		return mock;
+	}
 	
 }
