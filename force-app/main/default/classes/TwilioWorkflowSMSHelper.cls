@@ -119,12 +119,12 @@ public with sharing class TwilioWorkflowSMSHelper {
 			Using Named Credentials
 		*/
 
-		req.setEndpoint(urlBuilderWithNameCredentils());
+		//req.setEndpoint(urlBuilderWithNameCredentils());
 		
 		/*
 			Using Custom Setting
 		*/ 
-		/*
+		
 		req.setEndpoint(urlBuilder());
 		req.setHeader(
 			'Authorization', 'Basic '
@@ -134,7 +134,7 @@ public with sharing class TwilioWorkflowSMSHelper {
 				+ tc.AuthToken__c
 				)
 			)
-		); */
+		);
 		req.setMethod('POST');
 		return req;
 	}
@@ -191,7 +191,7 @@ public with sharing class TwilioWorkflowSMSHelper {
 		TwilioConfig__c tc = TwilioConfig__c.getOrgDefaults();
 
 		return 
-			'callout:Twillio/' 
+			'callout:Twillio' 
 			+ '/' + 
 			tc.API_Version__c
 			+ '/' +
