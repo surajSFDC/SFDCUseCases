@@ -128,7 +128,77 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ActiveScratchOrg"
+          "value": "ActionCadenceAsyncJob"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIError"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIInsightAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIInsightFeedback"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIInsightReason"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIInsightReasonMLModelFactor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIInsightSource"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIInsightValue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIMetric"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIRecordInsight"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AIState"
         },
         {
           "active": true,
@@ -157,6 +227,27 @@
           "label": null,
           "validFor": null,
           "value": "AppAnalyticsQueryRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentScheduleAggr"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentScheduleLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AppointmentTopicTimeSlot"
         },
         {
           "active": true,
@@ -205,6 +296,27 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "AssistantStepProgress"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AssociatedLocation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "AsyncOperationLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "AuthorizationForm"
         },
         {
@@ -233,28 +345,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "BatchJob"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BatchJobPart"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "BatchJobPartFailedRecord"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Battle_Station__c"
+          "value": "BusinessBrand"
         },
         {
           "active": true,
@@ -297,6 +388,34 @@
           "label": null,
           "validFor": null,
           "value": "Case"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CaseRelatedIssue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ChangeRequest"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ChangeRequestRelatedIssue"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ChangeRequestRelatedItem"
         },
         {
           "active": true,
@@ -360,6 +479,27 @@
           "label": null,
           "validFor": null,
           "value": "CollabUserEngmtRecordLink"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommerceSearchDocChangelist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommerceSearchIndexInfo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CommerceSearchIndexPayload"
         },
         {
           "active": true,
@@ -499,7 +639,70 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ContractLineItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ConvCoachingRecommendation"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "CredentialStuffingEventStore"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CreditMemo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CreditMemoInvApplication"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "CreditMemoLine"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Customer"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataAssetSemanticGraphEdge"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataAssetUsageTrackingInfo"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "DataflowTriggerEvent"
         },
         {
           "active": true,
@@ -556,6 +759,27 @@
           "label": null,
           "validFor": null,
           "value": "EngagementChannelType"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Entitlement"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EntitlementContact"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "EntityMilestone"
         },
         {
           "active": true,
@@ -632,21 +856,7 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Fund__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "Goal"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "GoalLink"
+          "value": "HawkingTenantProvStatus"
         },
         {
           "active": true,
@@ -667,6 +877,20 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "Incident"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "IncidentRelatedItem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "Individual"
         },
         {
@@ -674,7 +898,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "IotActivityLog"
+          "value": "Invoice"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "InvoiceLine"
         },
         {
           "active": true,
@@ -752,6 +983,48 @@
           "label": null,
           "validFor": null,
           "value": "ListEmailSentResult"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Location"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LocationGroup"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LocationGroupAssignment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LocationWaitlist"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LocationWaitlistedParty"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "LocWaitlistMsgTemplate"
         },
         {
           "active": true,
@@ -912,6 +1185,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ManagedContentSpaceModule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ManagedContentTranslationJob"
         },
         {
@@ -933,6 +1213,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "ManagedContentVariant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "ManagedContentVersion"
         },
         {
@@ -940,21 +1227,70 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Metric"
+          "value": "MessagingDeliveryError"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "MetricDataLink"
+          "value": "MessagingEndUser"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "NamespaceRegistry"
+          "value": "MessagingSession"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MlAppMigrationStatus"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MLMigration"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MLModel"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MLModelFactor"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MLModelFactorComponent"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MLModelMetric"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "MobileHomeConfiguration"
         },
         {
           "active": true,
@@ -962,13 +1298,6 @@
           "label": null,
           "validFor": null,
           "value": "Opportunity"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "OrchestrationContextRuntimeEvent"
         },
         {
           "active": true,
@@ -1066,6 +1395,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "PaymentLineInvoice"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "PersonalizationResource"
         },
         {
@@ -1074,6 +1410,27 @@
           "label": null,
           "validFor": null,
           "value": "Pricebook2"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "Problem"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProblemIncident"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ProblemRelatedItem"
         },
         {
           "active": true,
@@ -1102,6 +1459,13 @@
           "label": null,
           "validFor": null,
           "value": "PromptAction"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "PromptError"
         },
         {
           "active": true,
@@ -1206,7 +1570,35 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Resource__c"
+          "value": "ResourceAbsence"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ReturnOrder"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ReturnOrderItemAdjustment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ReturnOrderItemTax"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ReturnOrderLineItem"
         },
         {
           "active": true,
@@ -1234,13 +1626,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "ScratchOrgInfo"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SearchActivity"
         },
         {
@@ -1255,7 +1640,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Sector__c"
+          "value": "Seller"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ServiceAppointment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ServiceContract"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ServiceResource"
         },
         {
           "active": true,
@@ -1263,6 +1669,20 @@
           "label": null,
           "validFor": null,
           "value": "ServiceSetupProvisioning"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ServiceTerritory"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "ServiceTerritoryWorkType"
         },
         {
           "active": true,
@@ -1339,13 +1759,6 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "Supply__c"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
           "value": "SyncTransactionLog"
         },
         {
@@ -1360,7 +1773,28 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TenantSecurityApiAnomaly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TenantSecurityConnectedApp"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityCredentialStuffing"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityHealthCheckBaselineTrend"
         },
         {
           "active": true,
@@ -1402,6 +1836,13 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TenantSecurityMobilePolicyTrend"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TenantSecurityMonitorMetric"
         },
         {
@@ -1409,7 +1850,70 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
+          "value": "TenantSecurityNotification"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityNotificationRule"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
           "value": "TenantSecurityPackage"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityPolicy"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityPolicyChangeLog"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityPolicyDeployment"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityPolicySelectedTenant"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityReportAnomaly"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecuritySessionHijacking"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "TenantSecurityTrustedIpRangeTrend"
         },
         {
           "active": true,
@@ -1451,7 +1955,14 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "UserAssistantProgress"
+          "value": "Twilio_Message__c"
+        },
+        {
+          "active": true,
+          "defaultValue": false,
+          "label": null,
+          "validFor": null,
+          "value": "UserAssistantSummary"
         },
         {
           "active": true,
@@ -1493,98 +2004,70 @@
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkAccess"
+          "value": "WorkOrder"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkBadge"
+          "value": "WorkOrderLineItem"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkBadgeDefinition"
+          "value": "WorkPlan"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkCoaching"
+          "value": "WorkPlanTemplate"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkFeedback"
+          "value": "WorkPlanTemplateEntry"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkFeedbackQuestion"
+          "value": "WorkStep"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkFeedbackQuestionSet"
+          "value": "WorkStepTemplate"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkFeedbackRequest"
+          "value": "WorkType"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkFeedbackTemplate"
+          "value": "WorkTypeGroup"
         },
         {
           "active": true,
           "defaultValue": false,
           "label": null,
           "validFor": null,
-          "value": "WorkPerformanceCycle"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkReward"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFund"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkRewardFundType"
-        },
-        {
-          "active": true,
-          "defaultValue": false,
-          "label": null,
-          "validFor": null,
-          "value": "WorkThanks"
+          "value": "WorkTypeGroupMember"
         }
       ],
       "referenceTo": [],
@@ -1730,6 +2213,16 @@
       "junctionReferenceTo": [],
       "relationshipName": null,
       "restrictedDelete": false
+    },
+    {
+      "cascadeDelete": false,
+      "childSObject": "MessagingLink",
+      "deprecatedAndHidden": false,
+      "field": "RecordTypeId",
+      "junctionIdListNames": [],
+      "junctionReferenceTo": [],
+      "relationshipName": null,
+      "restrictedDelete": true
     },
     {
       "cascadeDelete": false,
